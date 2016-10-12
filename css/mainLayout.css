@@ -1,0 +1,143 @@
+@CHARSET "ISO-8859-1";
+/*
+ * GENERAL LAYOUT ==============================================
+ */
+*{
+	margin: 0px;
+	padding: 0px;
+}
+header, section, footer, aside, nav, article, hgroup{
+	display: block;
+}
+html,body{
+	font-family: Tahoma, Helvetica, Arial, sans-serif;
+	color: #222222;
+	font-size: 95%;
+}
+body{ 
+	min-width: 620px;
+}
+h1, h2, h3, h4, h5, h6, p{
+	margin-top: 0px;
+	margin-bottom: 0px;
+	font-weight: normal;
+}
+label{
+	font-weight: normal;
+}
+/*
+ * HEADER ======================================================
+ */
+header.header{
+	background-color: #800000;
+	border-bottom: 3px solid #222222;
+	padding: 25px;
+}
+header.header > div  > h1{
+	color: #ffffff;
+	font-weight: bold;
+	font-size: 34px;
+	font-family: Impact, Charcoal, sans-serif;
+	text-shadow: 2px 4px #222222;
+}
+/*
+ * NAVIGATION ===================================================
+ */
+nav.navigation{ }
+/*
+ * CONTENT ======================================================
+ */
+div.content{ 
+	height: auto;
+	min-height: 450px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+div.content section h1.content-title{
+	font-size: 24px;
+	font-weight: normal;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+div.content section div.content-container{
+	font-size: 13px; 
+	font-family: Verdana; 
+	margin: 0px 0px 10px 0px; 
+}
+div.content section div.content-container > h1.content-title{
+	font-size: 24px;
+	font-weight: normal;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+div.content section div.content-container > h4{
+	margin-bottom: 15px;
+	margin-top: 15px;
+	font-weight: normal;
+	text-indent: 1.26em;
+}
+div.content section div.contentWrapper{
+	border-left: solid 1px #cccccc;
+	border-top: solid 1px #cccccc;
+	border-right: solid 2px #000000;
+	border-bottom: solid 2px #000000;
+	margin-left: 20px;
+	padding: 10px;
+}
+div.content section p.instruction{
+	margin-top: 10px;
+	margin-bottom: 10px;
+	color: #800000;
+}
+div.content section div.contentWrapper select{
+	padding: 3px;
+	border-radius: 3px;
+	border-color: #cccccc;
+	margin-right: 10px;
+}
+div.content section input{
+	border: solid 1px #bbbbbb;
+	padding: 5px;
+	border-radius: 3px;
+}
+/*
+ * FOOTER =======================================================
+ */
+footer.footer{
+	background-color: #222222;
+	border-top: 3px solid #800000;
+}
+footer.footer > div{
+	padding: 10px;
+	color: #bbbbbb;
+}
+/*
+ * BENCHMARK =====================================================
+ */
+div.benchmark{
+	background-color: #f7f7f7;
+	margin-top: 10px;
+	margin-bottom: 15px;
+}
+div.benchmark > div{ }
+div.benchmark > div  > h3{
+	font-weight: bold;
+}
+div.benchmark > div  > p{
+	text-indent: 1em;
+	font-size: 14px;
+}
+/*
+ * DELETE ========================================================
+ */
+ p.note{
+ 	color: #800000;
+ 	font-size: 16px;
+ 	font-weight: normal;
+ }
+ p.confirmationMessage{
+ 	margin-left: 1em;
+	font-size: 16px;
+ 	font-weight: normal;
+	margin-top: 15px;
+ }
